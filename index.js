@@ -103,7 +103,7 @@ async function run() {
     }
   } catch (error) {
     core.debug(response)
-    core.setFailed(error);
+    core.setFailed(response);
   }
 
 }
