@@ -101,6 +101,7 @@ async function run() {
     }
 
   } catch (error) {
+    core.debug(error)
     core.setFailed(error.message);
   }
 }
